@@ -1,6 +1,6 @@
 module github.com/docker-library/bashbrew
 
-go 1.24.0
+go 1.25.0
 
 require (
 	github.com/containerd/containerd v1.6.19
@@ -9,7 +9,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/urfave/cli v1.22.10
 	go.etcd.io/bbolt v1.3.7
-	golang.org/x/term v0.37.0
+	golang.org/x/term v0.43.0
 	pault.ag/go/debian v0.19.0
 	pault.ag/go/topsort v0.1.1
 )
@@ -53,11 +53,11 @@ require (
 	github.com/skeema/knownhosts v1.3.1 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/crypto v0.45.0 // indirect
-	golang.org/x/net v0.47.0 // indirect
-	golang.org/x/sync v0.18.0 // indirect
-	golang.org/x/sys v0.38.0 // indirect
-	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
+	golang.org/x/net v0.54.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	google.golang.org/genproto v0.0.0-20221207170731-23e4bf6bdc37 // indirect
 	google.golang.org/grpc v1.51.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
